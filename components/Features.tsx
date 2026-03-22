@@ -43,7 +43,7 @@ export const Features: React.FC = () => {
               {/* Decorative background for image */}
               <div className="absolute -inset-10 bg-blue-50/50 blur-[80px] rounded-full -z-10 animate-pulse"></div>
               <img
-                src="public/amicoTeaching-0fc24ded.png"
+                src="/amicoTeaching-0fc24ded.png"
                 alt="Interactive Teaching Illustration"
                 className="w-full h-auto max-w-lg mx-auto transform hover:scale-105 transition-transform duration-700"
               />
@@ -86,7 +86,7 @@ export const Features: React.FC = () => {
               {/* Decorative background for image */}
               <div className="absolute -inset-10 bg-pink-50/50 blur-[80px] rounded-full -z-10 animate-pulse"></div>
               <img
-                src="public/panaTeaching-3db890d1.png"
+                src="/panaTeaching-3db890d1.png"
                 alt="Educational Support Illustration"
                 className="w-full h-auto max-w-lg mx-auto transform hover:scale-105 transition-transform duration-700"
               />

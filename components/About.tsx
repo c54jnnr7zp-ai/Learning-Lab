@@ -62,7 +62,7 @@ export const About: React.FC = () => {
                 }}
               >
                 <img
-                  src="public/aboutLogo-5cb4b8c4.png"
+                  src="/aboutLogo-5cb4b8c4.png"
                   alt="The Learning Lab Mission"
                   className="group-hover:grayscale-0 transition-all duration-1000 object-cover w-full aspect-[4/5] scale-110"
                   style={{
