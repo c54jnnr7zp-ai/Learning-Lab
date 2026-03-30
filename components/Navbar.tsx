@@ -12,7 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
         {/* Logo Section */}
         <div className="flex items-center gap-3">
           <img
-            src='https://github.com/c54jnnr7zp-ai/Learning-Lab/blob/main/public/logo.png'
+            src="/logo.png"
             alt="Learning Lab Logo"
             className="w-12 h-12 rounded-lg "
           />

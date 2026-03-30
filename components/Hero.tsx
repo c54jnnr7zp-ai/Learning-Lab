@@ -1,6 +1,5 @@
 
 import React from 'react';
-import heroImage from '../assets/learning-lab-hero.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -22,7 +21,7 @@ export const Hero: React.FC = () => {
                   <div className="absolute -top-12 left-1/2 -translate-x-1/2">
                   </div>
                   <img
-                    src={heroImage}
+                    src="/hero.png"
                     alt="Educational Hero"
                     className="w-40 h-40 md:w-72 md:h-72 rounded-lg border-8 border-[#ff0055]/10 bg-white p-4 shadow-xl"
                   />

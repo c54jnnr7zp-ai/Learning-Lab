@@ -1,6 +1,4 @@
 import React from 'react';
-import amicoTeaching from '../assets/amicoTeaching-0fc24ded.png';
-import panaTeaching from '../assets/panaTeaching-3db890d1.png';
 
 const FeatureItem = ({ title, description }: { title: string, description: string }) => (
   <div className="group mb-10 last:mb-0">
@@ -44,7 +42,7 @@ export const Features: React.FC = () => {
               {/* Decorative background for image */}
               <div className="absolute -inset-10 bg-blue-50/50 blur-[80px] rounded-full -z-10 animate-pulse"></div>
               <img
-                src={amicoTeaching}
+                src="/amico.png"
                 alt="Interactive Teaching Illustration"
                 className="w-full h-auto max-w-lg mx-auto transform hover:scale-105 transition-transform duration-700"
               />
@@ -87,7 +85,7 @@ export const Features: React.FC = () => {
               {/* Decorative background for image */}
               <div className="absolute -inset-10 bg-pink-50/50 blur-[80px] rounded-full -z-10 animate-pulse"></div>
               <img
-                src={panaTeaching}
+                src="/pana.png"
                 alt="Educational Support Illustration"
                 className="w-full h-auto max-w-lg mx-auto transform hover:scale-105 transition-transform duration-700"
               />
