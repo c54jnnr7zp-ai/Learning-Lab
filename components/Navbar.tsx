@@ -1,6 +1,5 @@
 
 import React from 'react';
-import logo from '../assets/learning-logo.png';
 
 interface NavbarProps {
   scrolled: boolean;
@@ -13,7 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
         {/* Logo Section */}
         <div className="flex items-center gap-3">
           <img
-            src={logo}
+            src='https://github.com/c54jnnr7zp-ai/Learning-Lab/blob/main/public/logo.png'
             alt="Learning Lab Logo"
             className="w-12 h-12 rounded-lg "
           />
