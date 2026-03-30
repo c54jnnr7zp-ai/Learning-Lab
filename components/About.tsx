@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import aboutLogo from '../assets/aboutLogo-5cb4b8c4.png';
+import about from '../public/aboutLogo-5cb4b8c4.png';
+
 
 export const About: React.FC = () => {
   const [offset, setOffset] = useState(0);
@@ -62,7 +63,7 @@ export const About: React.FC = () => {
                 }}
               >
                 <img
-                  src={aboutLogo}
+                  src={about}
                   alt="The Learning Lab Mission"
                   className="group-hover:grayscale-0 transition-all duration-1000 object-cover w-full aspect-[4/5] scale-110"
                   style={{
