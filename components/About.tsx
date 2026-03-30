@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import about from '../public/aboutLogo-5cb4b8c4.png';
+import about from '../public/about.png';
 
 
 export const About: React.FC = () => {
